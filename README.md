@@ -7,6 +7,8 @@ YouTubeチャンネルIDの一覧からYouTubeチャンネル名の一覧を取�
 チャンネル名とは違ってチャンネルIDは不変なので、APIを叩いてチャンネルIDからチャンネル名一覧を取得すれば適宜最新の名前一覧が得られます。
 実行にはYouTube Data APIの認証が必要です。
 
+修正依頼募集中(この集団のチャンネルIDを追加したい、もっと簡単な方法がある、など)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
