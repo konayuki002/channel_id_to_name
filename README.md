@@ -1,8 +1,10 @@
 # IdToName
 
 ## 概要
-[みんなようみとる](https://chrome.google.com/webstore/detail/%E3%81%BF%E3%82%93%E3%81%AA%E3%82%88%E3%81%86%E8%A6%8B%E3%81%A8%E3%82%8B/jemjppnfnbmdlnpndcmpcjgmkmkbiall)という拡張機能に入力するチャンネル名を生成します。
-チャンネル名とは違ってチャンネルIDは不変なので、APIを叩いてチャンネルIDからチャンネル名一覧すれば適宜最新の名前一覧が得られます。
+
+YouTubeチャンネルIDの一覧からYouTubeチャンネル名の一覧を取得します。
+
+チャンネル名とは違ってチャンネルIDは不変なので、APIを叩いてチャンネルIDからチャンネル名一覧を取得すれば適宜最新の名前一覧が得られます。
 実行にはYouTube Data APIの認証が必要です。
 
 ## Installation
@@ -160,3 +162,7 @@ Kudou_chitose / 久遠千歳
 弦月 藤士郎 / Genzuki Tojiro【にじさんじ】
 甲斐田 晴 / Kaida Haru【にじさんじ】
 ```
+
+### なお
+
+[みんなようみとる](https://chrome.google.com/webstore/detail/%E3%81%BF%E3%82%93%E3%81%AA%E3%82%88%E3%81%86%E8%A6%8B%E3%81%A8%E3%82%8B/jemjppnfnbmdlnpndcmpcjgmkmkbiall)という拡張機能に自分が入力するために作った。
