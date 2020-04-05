@@ -1,4 +1,4 @@
-# IdToName
+# ChannelIdToName
 
 ## 概要
 
@@ -10,7 +10,7 @@ YouTubeチャンネルIDの一覧からYouTubeチャンネル名の一覧を取�
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `id_to_name` to your list of dependencies in `mix.exs`:
+by adding `channel_id_to_name` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -35,12 +35,12 @@ end
 Example channel IDs in ```nijisanji.ex```.
 
 ```bash
-$ mix run -e "IdToName.id_to_name(ChannelIdToName.Nijisanji.channel_ids, \"YOUR-GOOGLE-API-KEY\")"
+$ mix run -e "ChannelIdToName.id_to_name(ChannelIdToName.Nijisanji.channel_ids, \"YOUR-GOOGLE-API-KEY\")"
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/id_to_name](https://hexdocs.pm/id_to_name).
+be found at [https://hexdocs.pm/channel_id_to_name](https://hexdocs.pm/channel_id_to_name).
 
 ### (参考) にじさんじのチャンネルの名前一覧(2020/04/06現在)
 
