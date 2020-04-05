@@ -17,7 +17,7 @@ defmodule ChannelIdToName do
   end
 
   defp gen_url(channel_id, api_key) do
-    "/youtube/v3/channels?part=snippet&key=" <> api_key <> channel_id
+    "/youtube/v3/channels?part=snippet&key=" <> api_key <> "&id=" <> channel_id
   end
 
   defp fetch_title(data) do
